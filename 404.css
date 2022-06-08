@@ -1,21 +1,37 @@
-body{
- background-color: teal;
-    color: rgb(2, 2, 2);
-    background-image:url(istockphoto-1223914421-612x612.jpg) ;
+body {
+    background-color: teal;
+    color: hwb(0 5% 94%);
+    /* background-image: url(istockphoto-1223914421-612x612.jpg); */
+    background-image: linear-gradient(to right, violet , yellow);
+    margin-top: 100px;
+    margin-bottom: 100px;
 }
-h1{
-    font-size :400%;
-    font-weight: 300;
-    text-align: center;
 
-}
-p{
+h1 {
+    font-size: 120px;
     text-align: center;
-    font-size: 150%;
-    font-style: italic;
-     
+    color: rgb(89, 17, 184);
 }
-h2{
+
+p {
     text-align: center;
     font-size: 200%;
+    font-style: italic;
+    font-weight: 300;
+}
+
+h2 {
+    text-align: center;
+    font-size: 200%;
+}
+
+.btn {
+    background-color: #0d2e5f;
+    padding: 14px 40px;
+    border: none;
+    font-size: 30px;
+    border-radius: 20px;
+    color: white;
+    cursor: pointer;
+    display: inline-block;
 }
